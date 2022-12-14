@@ -89,8 +89,7 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
 
-              {/* Problema con el sparkline component, no renderiza */}
-              {/* <div className="mt-5">
+              <div className="mt-5">
                 <SparkLine
                   currentColor={currentColor}
                   id="line-sparkline"
@@ -100,7 +99,7 @@ const Ecommerce = () => {
                   data={SparklineAreaData}
                   color={currentColor}
                 />
-              </div> */}
+              </div>
               <div className="mt-10">
                 <Button
                   color="white"
